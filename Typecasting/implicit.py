@@ -1,0 +1,6 @@
+a=10
+print(type(a))
+b=20.5
+print(type(b))
+sum=a+b
+print(type(sum))
