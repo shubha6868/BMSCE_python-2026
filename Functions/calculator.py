@@ -16,21 +16,19 @@ def multiplication(a,b):
 
 def division(a,b):
  sum=a/b
-return sum
+ return sum
+while True:
+       operation = int(input("enter operation\n1)addition\n2)subtraction\n3)multiplication\n4)division\n5) Exit"))
+                 if   0 < operation < 5 :
+                    a = int(input("enter num 1:"))
+                    b = int(input("enter num 2:"))
+                    else:
+                         break
 
-operation = int(input("enter operation\n1)addition\n2)subtraction\n3)multiplication\n4)division\n5) Exit")):
-
-
-if 0 < operation < 5:
-    a = int(input("enter num 1:"))
-    b = int(input("enter num 2:"))
-else:
-    break
-
-   match operation:
+    match  operation:
         case 1:
-            print(f"{a}+{b}={a+b}")
-        case 2:
+              print(f"{a}+{b}={a+b}")
+          case 2:
           print(f"{a}-{b}={a -b}")
         case 3:
         print(f"{a}*{b}={a *b}")
